@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script> -->
+    <script src="carousel.js"></script>
     <title>Home Page</title>
 </head>
 <body class="flex flex-col min-h-screen">
@@ -39,25 +41,25 @@
 
             <section tabindex="0" class="flex flex-col items-center p-4 w-full">
                 <div id="default-item-1" class="relative w-full max-w-4xl" data-carousel="slide">
-                    <!-- Item 1 -->
-                    <div class="relative h-64 overflow-hidden rounded-xl md:h-96">
-                        <img src="https://picsum.photos/1200/600?random=1" 
-                            alt="Slide 1" 
-                            class="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                    </div>
                     
-                    <!-- Item 2 -->
-                    <div id="carousel-item-2" class="relative h-64 overflow-hidden rounded-xl md:h-96">
-                        <img src="https://picsum.photos/1200/600?random=2" 
-                            alt="Slide 2" 
-                            class="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                    </div>
+                    <div class="relative h-64 overflow-hidden rounded-xl md:h-96">
+                        <!--Item 1  -->
+                        <div id="carousel-item-1" class="absolute inset-0 transition-opacity duration-700 ease-in-out z-20" data-carousel-item>
+                            <img src="https://picsum.photos/1200/600?random=1" 
+                                class="block w-full h-full object-cover" alt="Slide 1">
+                        </div>
+                        
+                        <!-- Item 2 -->
+                        <div id="carousel-item-2" class="absolute inset-0 transition-opacity duration-700 ease-in-out hidden z-10" data-carousel-item>
+                            <img src="https://picsum.photos/1200/600?random=2" 
+                                class="block w-full h-full object-cover" alt="Slide 2">
+                        </div>
 
-                    <!-- Item 3 -->
-                     <div id="carousel-item-3" class="relative h-64 overflow-hidden rounded-xl md:h-96">
-                        <img src="https://picsum.photos/1200/600?random=3" 
-                            alt="Slide 3" 
-                            class="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                        <!-- Item 3 -->
+                        <div id="carousel-item-3" class="absolute inset-0 transition-opacity duration-700 ease-in-out hidden z-10" data-carousel-item>
+                            <img src="https://picsum.photos/1200/600?random=3" 
+                                class="block w-full h-full object-cover" alt="Slide 3">
+                        </div>
                     </div>
 
 
