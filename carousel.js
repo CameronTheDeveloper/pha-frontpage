@@ -1,3 +1,5 @@
+import { Carousel } from 'flowbite';
+
 const carouselElement = document.getElementById('default-carousel');
 
 const items = [
@@ -57,3 +59,6 @@ const instanceOptions = {
   id: 'carousel-example',
   override: true
 };
+
+
+const carousel = new Carousel(carouselElement, items, options, instanceOptions);
