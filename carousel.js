@@ -1,6 +1,8 @@
 import { Carousel } from 'flowbite';
 
 const carouselElement = document.getElementById('default-carousel');
+const $prevButton = document.getElementById('carousel-prev-button');
+const $nextButton = document.getElementById('carousel-next-button');
 
 const items = [
     {
@@ -62,3 +64,11 @@ const instanceOptions = {
 
 
 const carousel = new Carousel(carouselElement, items, options, instanceOptions);
+
+$prevButton.addEventListener('click', () => {
+    carousel.prev();
+});
+
+$nextButton.addEventListener('click', () => {
+    carousel.next();
+});
