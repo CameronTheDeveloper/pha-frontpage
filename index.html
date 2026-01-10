@@ -117,42 +117,67 @@
                 </div>
             </section>
 
-            <section tabindex="0" class="p-4" >
-                <h2 class="text-2xl font-bold mb-4">Services Info</h2>
-                <p>Our academy offers a variety of services to help students learn and grow in the field of computer science and programming.</p>
-               
-                <ul>
-                    <li class="flex items-center gap-1 mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
-                            <path d="M12 2L16.5 6.5L12 11L7.5 6.5L12 2Z" /> <path d="M6.5 7.5L11 12L6.5 16.5L2 12L6.5 7.5Z" /> <path d="M17.5 7.5L22 12L17.5 16.5L13 12L17.5 7.5Z" /> <path d="M12 13L16.5 17.5L12 22L7.5 17.5L12 13Z" /> 
-                        </svg>
-                        <span>One-on-one tutoring sessions</span>
-                    </li>
-                    <li class="flex items-center gap-1 mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
-                            <path d="M12 2L16.5 6.5L12 11L7.5 6.5L12 2Z" /> <path d="M6.5 7.5L11 12L6.5 16.5L2 12L6.5 7.5Z" /> <path d="M17.5 7.5L22 12L17.5 16.5L13 12L17.5 7.5Z" /> <path d="M12 13L16.5 17.5L12 22L7.5 17.5L12 13Z" /> 
-                        </svg>
-                        <span>Group coding workshops</span>
-                    </li>
-                    <li class="flex items-center gap-1 mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
-                            <path d="M12 2L16.5 6.5L12 11L7.5 6.5L12 2Z" /> <path d="M6.5 7.5L11 12L6.5 16.5L2 12L6.5 7.5Z" /> <path d="M17.5 7.5L22 12L17.5 16.5L13 12L17.5 7.5Z" /> <path d="M12 13L16.5 17.5L12 22L7.5 17.5L12 13Z" /> 
-                        </svg>
-                        <span>Project-based learning opportunities</span>
-                    </li>
-                    <li class="flex items-center gap-1 mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
-                            <path d="M12 2L16.5 6.5L12 11L7.5 6.5L12 2Z" /> <path d="M6.5 7.5L11 12L6.5 16.5L2 12L6.5 7.5Z" /> <path d="M17.5 7.5L22 12L17.5 16.5L13 12L17.5 7.5Z" /> <path d="M12 13L16.5 17.5L12 22L7.5 17.5L12 13Z" /> 
-                        </svg>
-                        <span>Online resources and tutorials</span>
-                    </li>
-                    <li class="flex items-center gap-1 mb-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
-                            <path d="M12 2L16.5 6.5L12 11L7.5 6.5L12 2Z" /> <path d="M6.5 7.5L11 12L6.5 16.5L2 12L6.5 7.5Z" /> <path d="M17.5 7.5L22 12L17.5 16.5L13 12L17.5 7.5Z" /> <path d="M12 13L16.5 17.5L12 22L7.5 17.5L12 13Z" /> 
-                        </svg>
-                        <span>Mentorship programs</span>
-                    </li>
-                </ul>
+            <section id="services" tabindex="0" class="p-8 w-full max-w-6xl mx-auto focus:ring-2 focus:ring-blue-500 outline-none">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-extrabold text-gray-900 mb-4">Our Services</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        Our academy offers a variety of specialized programs to help students learn and grow in the field of computer science and programming.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <div class="p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:shadow-md transition-shadow">
+                        <div class="w-10 h-10 bg-indigo-600 text-white rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.174L10.74 12 4.26 13.826a.99.99 0 01-1.26-.957V11.13a.99.99 0 011.26-.956zm12.63 0L23.37 12l-6.48 1.826a.99.99 0 01-1.26-.957V11.13a.99.99 0 011.26-.956zm-10.41 6.843l6.48-1.826a.99.99 0 011.26.957v1.739a.99.99 0 01-1.26.956l-6.48-1.826a.99.99 0 010-1.9zm10.41 0l-6.48 1.826a.99.99 0 01-1.26-.957v-1.739a.99.99 0 011.26-.956l6.48 1.826a.99.99 0 010 1.9zM12 2v2m0 16v2m-8-8H2m20 0h-2" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">1-on-1 Tutoring</h3>
+                        <p class="text-sm text-gray-600">Personalized attention tailored to your child's specific learning pace and interests.</p>
+                    </div>
+
+                    <div class="p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:shadow-md transition-shadow">
+                        <div class="w-10 h-10 bg-indigo-600 text-white rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.998 5.998 0 00-12 0m12 0c0-1.657-1.343-3-3-3m-3 3c0-1.657-1.343-3-3-3m-3 3C2.71 18.345 1.5 16.512 1.5 14.5a3 3 0 013-3m15 3a3 3 0 01-3-3m-6-3a3 3 0 116 0 3 3 0 01-6 0zm-3 0a3 3 0 116 0 3 3 0 01-6 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Group Workshops</h3>
+                        <p class="text-sm text-gray-600">Collaborative sessions where students solve problems together and build social skills.</p>
+                    </div>
+
+                    <div class="p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:shadow-md transition-shadow">
+                        <div class="w-10 h-10 bg-indigo-600 text-white rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l-5.571 3-5.571-3" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Project-Based Learning</h3>
+                        <p class="text-sm text-gray-600">Students build real apps and games to see their code come to life immediately.</p>
+                    </div>
+
+                    <div class="p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:shadow-md transition-shadow">
+                        <div class="w-10 h-10 bg-indigo-600 text-white rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c1.052 0 2.062.18 3 .512v-14.25zM12 6.042A8.967 8.967 0 0118 3.75c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18c-1.052 0-2.062.18-3 .512v-14.25z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Online Resources</h3>
+                        <p class="text-sm text-gray-600">Access to a library of tutorials and guides to keep learning between sessions.</p>
+                    </div>
+
+                    <div class="p-6 bg-slate-50 border border-slate-100 rounded-2xl hover:shadow-md transition-shadow">
+                        <div class="w-10 h-10 bg-indigo-600 text-white rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.174L10.74 12 4.26 13.826a.99.99 0 01-1.26-.957V11.13a.99.99 0 011.26-.956zm12.63 0L23.37 12l-6.48 1.826a.99.99 0 01-1.26-.957V11.13a.99.99 0 011.26-.956zm-10.41 6.843l6.48-1.826a.99.99 0 011.26.957v1.739a.99.99 0 01-1.26.956l-6.48-1.826a.99.99 0 010-1.9zm10.41 0l-6.48 1.826a.99.99 0 01-1.26-.957v-1.739a.99.99 0 011.26-.956l6.48 1.826a.99.99 0 010 1.9zM12 2v2m0 16v2m-8-8H2m20 0h-2" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Mentorship</h3>
+                        <p class="text-sm text-gray-600">Career guidance and long-term planning for students pursuing CS in college.</p>
+                    </div>
+
+                </div>
             </section>
             <section tabindex="0" class="p-6 max-w-2xl mx-auto focus:ring-2 focus:ring-blue-500 outline-none rounded-xl bg-white shadow-sm border border-gray-100">
                 <h2 class="text-3xl font-extrabold mb-8 text-gray-900 border-b pb-2">Subjects Info</h2>
