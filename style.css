@@ -16,12 +16,14 @@ header, footer{
 }
 #subjects-info li{
     border: 2px solid transparent;
+    text-decoration: underline;
 }
+
 
 #subjects-info li:hover{
     border: 2px solid #06b6d4;
     color: rgb(117, 0, 201);
     /* transition: background-color 0.2s ease-out, color 0.2s ease-out; */
     font-weight: 700;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
