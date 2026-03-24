@@ -585,9 +585,28 @@
 
   </main>
 
-  <footer class="flex text-white justify-center p-2 text-left">
+  <footer class="flex flex-col justify-center items-center text-white justify-center p-2 text-left">
+    <h2 class="text-3xl font-bold text-center p-2 mb-6">Book Now</h2>
+
+    <section>
+      <!-- modify this form HTML and place wherever you want your form -->
+      <form
+        action="https://formspree.io/f/mdapnkby"
+        method="POST"
+      >
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
+    </section>
     <section id="contact-info" class="p-4" tabindex="0">
-      <h2 class="text-3xl font-bold text-center p-2 mb-6">Book Now</h2>
       
       <div class="grid grid-cols-[auto_min-content_1fr] items-center gap-y-4 gap-x-4">
         
