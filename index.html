@@ -588,12 +588,12 @@
   <footer class="flex flex-col justify-center items-center text-white justify-center p-2 text-left">
     <h2 class="text-3xl font-bold text-center p-2 mb-6">Book Now</h2>
 
-    <section>
-      <!-- modify this form HTML and place wherever you want your form -->
+    <section class="w-full max-w-md">
+      <!-- Form -->
       <form
         action="https://formspree.io/f/mdapnkby"
         method="POST"
-        class="flex flex-col items-center justify-center"
+        class="flex flex-col gap-6"
       >
         <label>
           Your email:
@@ -603,7 +603,6 @@
           Your message:
           <textarea name="message" class="text-black"></textarea>
         </label>
-        <!-- your other form fields go here -->
         <button type="submit">Send</button>
       </form>
     </section>
